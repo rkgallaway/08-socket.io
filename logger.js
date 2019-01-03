@@ -12,6 +12,7 @@ const logError = (payload) => {
 };
 
 const logSuccess = (payload) => {
+  console.log('seen'); // not logging 
   if(payload) {
     console.log('Something was saved', payload);
   }

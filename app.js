@@ -19,19 +19,8 @@ const alterFile = (file) =>
   loadFile(file)
     .then (contents => convertBuffer(contents))
     .then (buffer => saveFile(file, buffer))
-    .then  (() => socket.emit(`${file} saved`))
-    .catch(error => socket.emit(error));
-
-const alterFileOld = (file) => {
-  fs.readFile( file, (err, data) => {
-    if(err) { throw err; }
-    let text = data.toString().toUpperCase();
-    fs.writeFile( file, Buffer.from(text), (err, data) => {
-      if(err) { throw err; }
-      console.log(`${file} saved`);
-    });
-  });
-};
+    .then  (() => socket.emit('save', `${file} saved`))
+    .catch(error => socket.emit('error', error));
 
 let file = process.argv.slice(2).shift();
 alterFile(file);
