@@ -1,0 +1,23 @@
+{
+  "name": "08-socket.io",
+  "version": "1.0.0",
+  "description": "![CF](http://i.imgur.com/7v5ASc8.png) LAB 08 =================================================",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkgallaway/08-socket.io.git"
+  },
+  "author": "Ryan Gallaway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rkgallaway/08-socket.io/issues"
+  },
+  "homepage": "https://github.com/rkgallaway/08-socket.io#readme",
+  "dependencies": {
+    "eslint": "^5.11.1",
+    "jest": "^23.6.0"
+  }
+}

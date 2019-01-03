@@ -1,18 +1,20 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB
+![CF](http://i.imgur.com/7v5ASc8.png) LAB 08
 =================================================
 
-## Project Name
+## Lab 08 Socket.io
 
-### Author: Student/Group Name
+### Author: Ryan Gallaway
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+
+[![Build Status](https://www.travis-ci.com/rkgallaway/08-socket.io.svg?branch=master)](https://www.travis-ci.com/rkgallaway/08-socket.io)
+
+* [repo](https://github.com/rkgallaway/08-socket.io)
+* [travis](https://www.travis-ci.com/rkgallaway/08-socket.io)
+* [heroku]https://lab-08-socket-io.herokuapp.com)
 
 ### Modules
-#### `modulename.js`
+#### `app.js`
 ##### Exported Values and Methods
 
 ###### `foo(thing) -> string`
@@ -23,8 +25,7 @@ Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - Port described in ENV
 
 #### Running the app
 * `npm start`
